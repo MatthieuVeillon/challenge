@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should allow the user to sort the repo by the oldest 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa feMDxg"
+  >
+    <p>
+      Github username
+    </p>
+    <form
+      action="submit"
+      onSubmit={[Function]}
+    >
+      <input
+        placeholder="username"
+        type="text"
+      />
+      <input
+        type="submit"
+        value="GO"
+      />
+    </form>
+  </div>
+  <div
+    className="sc-bZQynM cunbwb"
+  >
+    <div
+      className="sc-bwzfXH YDagW"
+    >
+      <img
+        alt=""
+        className="sc-htpNat oRhHv"
+        src="https://avatars1.githubusercontent.com/u/20015180?v=4"
+      />
+      <div>
+        <h4>
+          Repositories for 
+          
+        </h4>
+        <div
+          className="sc-bwzfXH YDagW"
+        >
+          <p>
+            Found 
+            2
+            .
+          </p>
+          <p>
+            Showing top :
+            10
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>
+        Filter by
+      </p>
+      <form
+        action=""
+      >
+        <select
+          onChange={[Function]}
+        >
+          <option
+            value="recent"
+          >
+            Most recent first
+          </option>
+          <option
+            value="oldest"
+          >
+            Oldest first
+          </option>
+        </select>
+      </form>
+    </div>
+  </div>
+  <div>
+    <div
+      className="sc-EHOje dgvmnA"
+    >
+      <h3
+        className="sc-bxivhb gzkONY"
+      >
+        <a
+          href="https://github.com/MatthieuVeillon/Alibay-project"
+          target="_blank"
+        >
+          repo1
+        </a>
+      </h3>
+      <p>
+        this is a repo
+      </p>
+      <p
+        className="sc-ifAKCX cGUfgB"
+      >
+        updated 
+        18 days ago
+      </p>
+    </div>
+    <div
+      className="sc-EHOje dgvmnA"
+    >
+      <h3
+        className="sc-bxivhb gzkONY"
+      >
+        <a
+          href="https://github.com/MatthieuVeillon/Alibay-project"
+          target="_blank"
+        >
+          repo2
+        </a>
+      </h3>
+      <p>
+        this is a repo2
+      </p>
+      <p
+        className="sc-ifAKCX cGUfgB"
+      >
+        updated 
+        18 days ago
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should not display any repo if the userInput doesnt match any valid username 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa feMDxg"
+  >
+    <p>
+      Github username
+    </p>
+    <form
+      action="submit"
+      onSubmit={[Function]}
+    >
+      <input
+        placeholder="username"
+        type="text"
+      />
+      <input
+        type="submit"
+        value="GO"
+      />
+    </form>
+  </div>
+  <p>
+    No repositories found for 
+    ;hkasdjkbfalskdjhuasdbfasdjgkagd
+  </p>
+  <div />
+</div>
+`;
+
+exports[`should render no repo by default 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa feMDxg"
+  >
+    <p>
+      Github username
+    </p>
+    <form
+      action="submit"
+      onSubmit={[Function]}
+    >
+      <input
+        placeholder="username"
+        type="text"
+      />
+      <input
+        type="submit"
+        value="GO"
+      />
+    </form>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`should render the repos from a user if a val username matchs a repo 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa feMDxg"
+  >
+    <p>
+      Github username
+    </p>
+    <form
+      action="submit"
+      onSubmit={[Function]}
+    >
+      <input
+        placeholder="username"
+        type="text"
+      />
+      <input
+        type="submit"
+        value="GO"
+      />
+    </form>
+  </div>
+  <div
+    className="sc-bZQynM cunbwb"
+  >
+    <div
+      className="sc-bwzfXH YDagW"
+    >
+      <img
+        alt=""
+        className="sc-htpNat oRhHv"
+        src="https://avatars1.githubusercontent.com/u/20015180?v=4"
+      />
+      <div>
+        <h4>
+          Repositories for 
+          
+        </h4>
+        <div
+          className="sc-bwzfXH YDagW"
+        >
+          <p>
+            Found 
+            2
+            .
+          </p>
+          <p>
+            Showing top :
+            10
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>
+        Filter by
+      </p>
+      <form
+        action=""
+      >
+        <select
+          onChange={[Function]}
+        >
+          <option
+            value="recent"
+          >
+            Most recent first
+          </option>
+          <option
+            value="oldest"
+          >
+            Oldest first
+          </option>
+        </select>
+      </form>
+    </div>
+  </div>
+  <div>
+    <div
+      className="sc-EHOje dgvmnA"
+    >
+      <h3
+        className="sc-bxivhb gzkONY"
+      >
+        <a
+          href="https://github.com/MatthieuVeillon/Alibay-project"
+          target="_blank"
+        >
+          repo1
+        </a>
+      </h3>
+      <p>
+        this is a repo
+      </p>
+      <p
+        className="sc-ifAKCX cGUfgB"
+      >
+        updated 
+        18 days ago
+      </p>
+    </div>
+    <div
+      className="sc-EHOje dgvmnA"
+    >
+      <h3
+        className="sc-bxivhb gzkONY"
+      >
+        <a
+          href="https://github.com/MatthieuVeillon/Alibay-project"
+          target="_blank"
+        >
+          repo2
+        </a>
+      </h3>
+      <p>
+        this is a repo2
+      </p>
+      <p
+        className="sc-ifAKCX cGUfgB"
+      >
+        updated 
+        18 days ago
+      </p>
+    </div>
+  </div>
+</div>
+`;
